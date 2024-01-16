@@ -1,0 +1,52 @@
+.PlayerStatus {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 90%;
+  height: calc(100% - 108px);
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.PlayerStatus {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 90%;
+  height: calc(100% - 108px);
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.PlayerStatus table {
+  width: 50%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.PlayerStatus table thead {
+  text-align: left;
+  background-color: #ccc;
+}
+.PlayerStatus table thead tr th {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.PlayerStatus table tbody tr:nth-child(2n + 1) {
+  background-color: #efefef;
+}
+.PlayerStatus table tbody tr td {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.PlayerStatus table tbody tr td button {
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+
+.PlayerStatus button {
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 1px 0px rgb(28, 28, 28);
+  padding: 0px 10px;
+  border: 1px solid black;
+}

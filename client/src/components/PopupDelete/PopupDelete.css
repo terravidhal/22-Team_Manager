@@ -1,0 +1,44 @@
+.PopupDelete {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.PopupDelete .btn_del_confirm {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.PopupDelete .title {
+  color: red;
+  text-align: center;
+}
+.PopupDelete .message_confirm {
+  text-align: center;
+}
+.PopupDelete button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 93px;
+}
+.PopupDelete button.bt_delete {
+  background-color: orange;
+}
+.PopupDelete button.bt_confirm {
+  background-color: red;
+  margin-right: 10px;
+}

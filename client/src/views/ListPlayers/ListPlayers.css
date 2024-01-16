@@ -1,0 +1,38 @@
+.ListPlayers {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 90%;
+  height: calc(100% - 108px);
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.ListPlayers table {
+  width: 70%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.ListPlayers table thead {
+  text-align: left;
+  background-color: #ccc;
+}
+.ListPlayers table thead tr th {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.ListPlayers table tbody tr:nth-child(2n + 1) {
+  background-color: #efefef;
+}
+.ListPlayers table tbody tr td {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.ListPlayers button {
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 1px 0px rgb(28, 28, 28);
+  padding: 0px 10px;
+  border: 1px solid black;
+}

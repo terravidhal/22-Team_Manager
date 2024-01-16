@@ -1,0 +1,49 @@
+.AddPlayer {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 90%;
+  height: calc(100% - 108px);
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.AddPlayer form {
+  width: 40%;
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.AddPlayer form label {
+  width: 170px;
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  font-weight: bold;
+}
+.AddPlayer form input {
+  outline: none;
+}
+.AddPlayer form .btn_psubmit_player {
+  text-align: right;
+}
+.AddPlayer form .btn_psubmit_player button.btn-disabled {
+  width: 100px;
+  border: none;
+  box-shadow: 1px 1px 1px 0px rgb(28, 28, 28);
+  padding: 0px 10px;
+  margin-right: 40px;
+  margin-top: 20px;
+  background-color: #efefef;
+  border: 1px solid black;
+}
+.AddPlayer form .btn_psubmit_player button.btn-actived {
+  border: 1px solid black;
+  background-color: green;
+  cursor: pointer;
+  width: 100px;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 1px 0px rgb(28, 28, 28);
+  padding: 0px 10px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
